@@ -3,10 +3,10 @@ require File.expand_path('../lib/visit_counter_updater/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Gilad Zohari"]
-  gem.email         = ["gilad@ftbpro.com"]
+  gem.email         = ["gilad@gmail.com"]
   gem.description   = %q{Extending VisitCounter to stage all data to DB}
   gem.summary       = %q{Tom Caspy is a lazi individual.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/gzohari/visit-counter-updater"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
